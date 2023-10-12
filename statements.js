@@ -33,3 +33,7 @@ if (num === 7) {
 if (num > 7 || num <= 0) {
   console.log("you did not roll the num");
 }
+
+
+
+

@@ -8,6 +8,6 @@ if (amount < balance) {
   alert("bafore deduction balance = " + balance);
 } else {
   alert(
-    "your balance is  :  " + balance + " enter amount less than your balance"
+    "your balance is  :  " + balance + "  enter amount less than your balance"
   );
 }
