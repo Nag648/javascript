@@ -10,7 +10,7 @@ function add(a, b) {
 }
 
 // Calling a function
-add("sri", "nag");
+add("sri", "nag");ṇ
 
 // Function Expression
 const nom = function (a1, b1) {
