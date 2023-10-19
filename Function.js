@@ -10,7 +10,7 @@ function add(a, b) {
 }
 
 // Calling a function
-add("sri", "nag");ṇ
+add("sri", "nag");
 
 // Function Expression
 const nom = function (a1, b1) {
@@ -20,15 +20,15 @@ const nom = function (a1, b1) {
 const name = "sri";
 const name1 = "nag";
 
-const fullName = [name, name1];
+const fullName = [name + name1];
 console.log(fullName);
 // Calling function
 nom(5, 8);
 
 function Language() {
   let first = "HTML",
-    second = "CSS",
-    Third = "Javascript";
+   second = "CSS",
+  Third = "Javascript";
   return {
     first,
     second,
