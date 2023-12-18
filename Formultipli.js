@@ -15,3 +15,9 @@ let n = 7;
 for (let i = 1; i <= 10; ++i)
 	console.log(n + " * " + i +
 		" = " + n * i);
+
+
+
+		let j = 9;
+		for (let i = 1; i <= 10; ++i)
+		console.log(j + " * " + i+ " = " + j * i);
