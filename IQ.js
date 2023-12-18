@@ -3,12 +3,12 @@
 
 //**Example:**
 // ```javascript
-// const n = 5;
-// let sum = 0;
-// for (let i = 1; i <= n; i++) {
-//   sum += i;
-// }
-// console.log(sum); // 15
+const num2 = 5;
+let sum = 0;
+for (let i = 1; i <= num2; i++) {
+  sum += i;
+}
+console.log(sum); // 15
 
 
 // const n = 10;
@@ -24,25 +24,25 @@
 
 // **Example:**
 // ```javascript
-// const m= 5;
-// let factorial = 1;
-// for (let i = 1; i <= m; i++) {
-//   factorial *= i;
-// }
-// //1*2*3*4*5=120
-// //5*4*3*2*1=120
-// console.log(factorial); // 120
+const m= 5;
+let factorial = 1;
+for (let i = 1; i <= m; i++) {
+  factorial *= i;
+}
+//1*2*3*4*5=120
+//5*4*3*2*1=120
+console.log(factorial); // 120
 
 
-// function fact(num1){
-//   if(num1==1)
-//   return 1;
-// else
-//    return num1 * fact(num1-1);
-// }
+function fact(num1){
+  if(num1==1)
+  return 1;
+else
+   return num1 * fact(num1-1);
+}
 
-// let value = fact(6)
-// console.log(value);
+let value = fact(6)
+console.log(value);
 
 
 
@@ -81,10 +81,10 @@ console.log(reversed); // "olleh"
 
 // **Example:**
 // ```javascript
-const n = 7;
+const num3 = 7;
 let isPrime = true;
-for (let i = 2; i <= Math.sqrt(n); i++) {
-  if (n % i === 0) {
+for (let i = 2; i <= Math.sqrt(num3); i++) {
+  if (num3 % i === 0) {
     isPrime = false;
     break;
   }
@@ -99,9 +99,9 @@ console.log(isPrime); // true
 
 // **Example:**
 // ```javascript
-const num = 12345;  
+const num4 = 12345;  
 let count = 0;
-let temp = num;
+let temp = num4;
 while (temp !== 0) {
   count++;
   temp = Math.floor(temp / 10);
