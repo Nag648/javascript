@@ -18,6 +18,5 @@ for (let i = 1; i <= 10; ++i)
 
 
 
-		let j = 9;
 		for (let i = 1; i <= 10; ++i)
-		console.log(j + " * " + i+ " = " + j * i);
+		console.log(3 + " * " + i+ " = " + 3 * i);
