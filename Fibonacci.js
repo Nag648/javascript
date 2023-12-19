@@ -36,11 +36,11 @@ for (var i = 1; i <= number; i++) {
 
 
 
-// const num = 50;
-// const m1 = 0, m2 = 1, nextTerm1;
-// for (let i = 1; i <= num; i++){
-//     console.log(m1);
-//   nextTerm1 = m1 + m2;
-//     m1 = m2;
-//     m2 = nextTerm1;
-// }
+const num = 50;
+var m1 = 0, m2 = 1, nextTerm1;
+for (let i = 1; i <= num; i++){
+    console.log(m1);
+  nextTerm1 = m1 + m2;
+    m1 = m2;
+    m2 = nextTerm1;
+}
