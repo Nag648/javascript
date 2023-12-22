@@ -45,3 +45,45 @@ console.log(string);
          let originalstring = "sri lakshmi";
          let newstring = originalstring.replace("nag");
          console.log(newstring);
+
+
+
+           //        split()   7          //
+
+
+           let text3 = 'how are you doing today';
+           const myArray = text3.split();
+           console.log(myArray);
+
+
+           //      trim()    8      //
+
+           let text4 = "    hello world   ";
+           console.log(text4);
+           let result = text4.trim();
+           console.log(result);
+            
+
+           //     concat()      9        //
+           
+           const str0 = "hello";
+           const str3 = "world";
+           console.log(str.concat(''));
+
+
+           //     startsWith()     10    //
+
+
+           let text5 = "hello world,welcome to the universe";
+           let res = text.startsWith("Hello");
+           console.log(res);
+
+
+
+         
+
+
+
+         
+
+
